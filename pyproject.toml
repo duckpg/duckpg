@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-duckdb"
+version = "0.1.0"
+description = "A simple integrator for Django ORM to use duckdb"
+authors = ["Khashayar Mirsadeghi <mms.khashayar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.1.3"
+duckdb = "^1.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.30.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
